@@ -63,31 +63,31 @@ window.onclick = function(event) {
 // Rotating Images Data
 const rotatingData = [
     {
-        image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop",
+        image: "assets/images/berry.jpg",
         title: "Premium Plant Protein",
         description: "Our carefully selected plant proteins provide all essential amino acids your body needs for optimal performance and recovery.",
         icon: "leaf"
     },
     {
-        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop",
+        image: "assets/images/tofu.jpg",
         title: "Organic Superfoods",
         description: "Packed with nutrient-dense superfoods like chia seeds, quinoa, and spirulina to fuel your active lifestyle naturally.",
         icon: "sparkles"
     },
     {
-        image: "https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?w=400&h=300&fit=crop",
+        image: "assets/images/chechollet.jpg",
         title: "Sustainable Nutrition",
         description: "Every ingredient is sourced sustainably, ensuring our planet stays healthy while you achieve your fitness goals.",
         icon: "globe"
     },
     {
-        image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&h=300&fit=crop",
+        image: "assets/images/berry.jpg",
         title: "Energy & Recovery",
         description: "Scientifically formulated to provide sustained energy before workouts and accelerated recovery afterward.",
         icon: "zap"
     },
     {
-        image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+        image: "assets/images/avocado.jpg",
         title: "Clean Ingredients",
         description: "No artificial preservatives, colors, or flavors. Just pure, wholesome nutrition that your body deserves.",
         icon: "shield-check"
