@@ -87,7 +87,7 @@ const rotatingData = [
         icon: "zap"
     },
     {
-        
+
         image: "assets/images/avocado.jpg",
         title: "Clean Ingredients",
         description: "No artificial preservatives, colors, or flavors. Just pure, wholesome nutrition that your body deserves.",
@@ -96,7 +96,7 @@ const rotatingData = [
 ];
 
 let currentRotatingIndex = 0;
-let lucide; // Declare the lucide variable
+let lucide; 
 
 // Function to update rotating content
 function updateRotatingContent() {
