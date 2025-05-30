@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantFuel - Fuel Your Performance Sustainably</title>
+    <link rel="stylesheet" href="style/home.style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Plant</span>
+                <span class="logo-accent">Fuel</span>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+            </ul>
+            
+            <div class="nav-icons">
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                </button>
+                <button class="search-btn"><i data-lucide="search"></i></button>
+                <button class="cart-btn"><i data-lucide="shopping-cart"></i></button>
+                <button class="profile-btn"><i data-lucide="user"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu">
+            <div class="mobile-menu-header">
+                <div class="nav-logo">
+                    <span class="logo-text">Plant</span>
+                    <span class="logo-accent">Fuel</span>
+                </div>
+                <button class="mobile-menu-close">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+            <ul class="mobile-nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+            </ul>
+            <div class="mobile-menu-footer">
+                <button class="theme-toggle mobile" aria-label="Toggle dark mode">
+                    <i data-lucide="sun" class="theme-icon-light"></i>
+                    <i data-lucide="moon" class="theme-icon-dark"></i>
+                    <span>Toggle Theme</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&h=500&fit=crop" alt="Healthy plant-based ingredients" />
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1>Fuel Your Performance<br>Sustainably</h1>
+            <p>Discover the power of plant-based nutrition with our high-protein snacks. Perfect for athletes and eco-conscious individuals, PlantFuel is your go-to for fueling an active lifestyle.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="openEarlyAccess()">
+                    <i data-lucide="rocket"></i>
+                    Join In
+                </button>
+                <button class="btn-secondary">
+                    Learn More
+                    <i data-lucide="arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <h2>
+            <i data-lucide="package"></i>
+            Products
+        </h2>
+        <div class="products-carousel-container">
+            <div class="products-carousel">
+                <!-- Product cards will be duplicated for infinite scroll -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=150&h=150&fit=crop" alt="Quinoa Crunch" />
+                    </div>
+                    <button class="btn-product">
+                        <i data-lucide="info"></i>
+                        Learn More
+                    </button>
+                    <div class="product-rating">
+                        <span class="stars">
+                            <i data-lucide="star"></i>
+                            4.8
+                        </span>
+                        <span class="reviews">24 reviews</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=150&h=150&fit=crop" alt="Lentil Power Bites" />
+                    </div>
+                    <button class="btn-product">
+                        <i data-lucide="info"></i>
+                        Learn More
+                    </button>
+                    <div class="product-rating">
+                        <span class="stars">
+                            <i data-lucide="star"></i>
+                            4.9
+                        </span>
+                        <span class="reviews">32 reviews</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop" alt="Protein Bars" />
+                    </div>
+                    <button class="btn-product">
+                        <i data-lucide="info"></i>
+                        Learn More
+                    </button>
+                    <div class="product-rating">
+                        <span class="stars">
+                            <i data-lucide="star"></i>
+                            4.6
+                        </span>
+                        <span class="reviews">18 reviews</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=150&h=150&fit=crop" alt="Energy Balls" />
+                    </div>
+                    <button class="btn-product">
+                        <i data-lucide="info"></i>
+                        Learn More
+                    </button>
+                    <div class="product-rating">
+                        <span class="stars">
+                            <i data-lucide="star"></i>
+                            4.7
+                        </span>
+                        <span class="reviews">26 reviews</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=150&h=150&fit=crop" alt="Trail Mix" />
+                    </div>
+                    <button class="btn-product">
+                        <i data-lucide="info"></i>
+                        Learn More
+                    </button>
+                    <div class="product-rating">
+                        <span class="stars">
+                            <i data-lucide="star"></i>
+                            4.5
+                        </span>
+                        <span class="reviews">15 reviews</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=150&h=150&fit=crop" alt="Nut Butter Bars" />
+                    </div>
+                    <button class="btn-product">
+                        <i data-lucide="info"></i>
+                        Learn More
+                    </button>
+                    <div class="product-rating">
+                        <span class="stars">
+                            <i data-lucide="star"></i>
+                            4.8
+                        </span>
+                        <span class="reviews">29 reviews</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=150&h=150&fit=crop" alt="Superfood Bites" />
+                    </div>
+                    <button class="btn-product">
+                        <i data-lucide="info"></i>
+                        Learn More
+                    </button>
+                    <div class="product-rating">
+                        <span class="stars">
+                            <i data-lucide="star"></i>
+                            4.9
+                        </span>
+                        <span class="reviews">41 reviews</span>
+                    </div>
+                </div>
+
+                <!-- Duplicate cards for seamless infinite scroll -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=150&h=150&fit=crop" alt="Quinoa Crunch" />
+                    </div>
+                    <button class="btn-product">
+                        <i data-lucide="info"></i>
+                        Learn More
+                    </button>
+                    <div class="product-rating">
+                        <span class="stars">
+                            <i data-lucide="star"></i>
+                            4.8
+                        </span>
+                        <span class="reviews">24 reviews</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=150&h=150&fit=crop" alt="Lentil Power Bites" />
+                    </div>
+                    <button class="btn-product">
+                        <i data-lucide="info"></i>
+                        Learn More
+                    </button>
+                    <div class="product-rating">
+                        <span class="stars">
+                            <i data-lucide="star"></i>
+                            4.9
+                        </span>
+                        <span class="reviews">32 reviews</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=150&h=150&fit=crop" alt="Protein Bars" />
+                    </div>
+                    <button class="btn-product">
+                        <i data-lucide="info"></i>
+                        Learn More
+                    </button>
+                    <div class="product-rating">
+                        <span class="stars">
+                            <i data-lucide="star"></i>
+                            4.6
+                        </span>
+                        <span class="reviews">18 reviews</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rotating Images Section -->
+    <section class="rotating-images-section">
+        <div class="rotating-container">
+            <div class="rotating-image">
+                <img id="rotatingImg" src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=300&fit=crop" alt="Plant-based nutrition" />
+            </div>
+            <div class="rotating-description">
+                <h3 id="rotatingTitle">
+                    <i data-lucide="leaf" id="rotatingIcon"></i>
+                    Premium Plant Protein
+                </h3>
+                <p id="rotatingText">Our carefully selected plant proteins provide all essential amino acids your body needs for optimal performance and recovery.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="benefits-background">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&h=400&fit=crop" alt="Natural ingredients background" />
+        </div>
+        <div class="benefits-content">
+            <div class="benefits-card">
+                <div class="benefits-badge">
+                    <i data-lucide="sparkles"></i>
+                    Discover the Power of Natural Ingredients
+                </div>
+                <div class="benefits-illustration">
+                    <img src="https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?w=200&h=200&fit=crop" alt="Natural ingredients illustration" />
+                </div>
+                <div class="benefits-text">
+                    <h3>
+                        <i data-lucide="heart"></i>
+                        What are the benefits?
+                    </h3>
+                    <p>Our high-protein snacks help with muscle recovery and provide sustained energy for your active lifestyle. They are also environmentally friendly, allowing you to fuel your workouts while caring for the planet. Enjoy guilt-free snacking that complements your fitness goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>
+                    <i data-lucide="leaf"></i>
+                    Plant Fuel
+                </h4>
+                <p>Fueling your performance sustainably</p>
+            </div>
+            <div class="footer-section">
+                <h4>
+                    <i data-lucide="building"></i>
+                    Company
+                </h4>
+                <ul>
+                    <li><a href="about.html"><i data-lucide="users"></i> About Us</a></li>
+                    <li><a href="#careers"><i data-lucide="briefcase"></i> Careers</a></li>
+                    <li><a href="#contact"><i data-lucide="mail"></i> Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>
+                    <i data-lucide="package"></i>
+                    Products
+                </h4>
+                <ul>
+                    <li><a href="#products"><i data-lucide="grid-3x3"></i> All Products</a></li>
+                    <li><a href="#nutrition"><i data-lucide="activity"></i> Nutrition Info</a></li>
+                    <li><a href="#ingredients"><i data-lucide="leaf"></i> Ingredients</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>
+                    <i data-lucide="book-open"></i>
+                    Resources
+                </h4>
+                <ul>
+                    <li><a href="#blog"><i data-lucide="file-text"></i> Blog</a></li>
+                    <li><a href="#recipes"><i data-lucide="chef-hat"></i> Recipes</a></li>
+                    <li><a href="#faq"><i data-lucide="help-circle"></i> FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>
+                    <i data-lucide="user"></i>
+                    Account
+                </h4>
+                <ul>
+                    <li><a href="#login"><i data-lucide="log-in"></i> Log In</a></li>
+                    <li><a href="#signup"><i data-lucide="user-plus"></i> Sign Up</a></li>
+                    <li><a href="#profile"><i data-lucide="settings"></i> Profile</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Early Access Modal -->
+    <div id="earlyAccessModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeEarlyAccess()">
+                <i data-lucide="x"></i>
+            </span>
+            <h2>
+                <i data-lucide="rocket"></i>
+                Join Early Access
+            </h2>
+            <p>Be the first to try PlantFuel's revolutionary plant-based protein snacks!</p>
+            <form class="early-access-form">
+                <div class="input-group">
+                    <i data-lucide="mail"></i>
+                    <input type="email" placeholder="Enter your email" required>
+                </div>
+                <button type="submit" class="btn-primary">
+                    <i data-lucide="send"></i>
+                    Get Early Access
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/home.script.js"></script>
+</body>
+</html>
