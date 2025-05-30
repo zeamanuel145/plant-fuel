@@ -26,7 +26,7 @@
 
 /* Dark Theme */
 .dark-theme {
-    --primary-green: #7AB547;
+    --primary-green: #5B8F2D;
     --white: #1a1a1a;
     --beige: #2a2a2a;
     --light-gray: #333;
@@ -52,7 +52,7 @@ body {
 
 /* Lucide Icons Styling */
 [data-lucide] {
-    color: var(--primary-green);
+    color: #5B8F2D;
     width: 20px;
     height: 20px;
     stroke-width: 2;
@@ -332,7 +332,7 @@ body {
 .hero-content {
     position: absolute;
     top: 50%;
-    left: 50px;
+    left: 150px;
     transform: translateY(-50%);
     z-index: 3;
     color: var(--white);
@@ -630,12 +630,7 @@ body {
 }
 
 .benefits-card {
-    background: var(--benefits-card-bg);
-    border-radius: 15px;
-    padding: 2rem;
-    width: 350px;
-    position: relative;
-    transition: background-color 0.3s ease;
+   
 }
 
 .benefits-badge {
@@ -674,11 +669,17 @@ body {
 
 .benefits-text {
     margin-left: 100px;
+    /* background-color: #fcd489; */
+    background: #fcd489;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 350px;
+    position: relative;
 }
 
 .benefits-text h3 {
     font-size: 1.3rem;
-    color: var(--text-color);
+    color: #5B8F2D;
     margin-bottom: 1rem;
     font-weight: 600;
     display: flex;
