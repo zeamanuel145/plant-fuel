@@ -87,6 +87,7 @@ const rotatingData = [
         icon: "zap"
     },
     {
+        
         image: "assets/images/avocado.jpg",
         title: "Clean Ingredients",
         description: "No artificial preservatives, colors, or flavors. Just pure, wholesome nutrition that your body deserves.",
