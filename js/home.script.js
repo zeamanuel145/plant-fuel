@@ -1,6 +1,6 @@
 // Theme Switcher
 function initTheme() {
-    // Check for saved theme preference or use device preference
+    // Check for saved theme reference or use device preference
     const savedTheme = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     
