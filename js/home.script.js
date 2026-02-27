@@ -1,4 +1,4 @@
-// Theme Switche
+// Theme Switch
 function initTheme() {
     // Checkfor saved theme reference or use device preference
     const savedTheme = localStorage.getItem('theme');
