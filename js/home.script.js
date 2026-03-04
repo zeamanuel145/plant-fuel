@@ -1,5 +1,5 @@
 // Theme 
-function initTheme() {
+functioninitTheme() {
     // Checkfor saved theme reference or use device preference
     const savedTheme = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
