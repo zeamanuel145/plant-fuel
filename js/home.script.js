@@ -1,4 +1,4 @@
-// Theme S
+// Theme 
 function initTheme() {
     // Checkfor saved theme reference or use device preference
     const savedTheme = localStorage.getItem('theme');
