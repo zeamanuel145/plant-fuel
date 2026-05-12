@@ -1,4 +1,4 @@
-// Thedhhgggghyuuuuhehehewjw
+// Thedhhgggghyuuuuhehehewj
 functioninitTheme() {
     // Checkfor saved theme reference or use device preference
     const savedTheme = localStorage.getItem('theme');
